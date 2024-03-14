@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Question1</title>
+<script language="JavaScript">
+function checkform()
+{
+var cfname=document.forms["question1"]["FirstName"].value;
+var cfamname=document.forms["question1"]["FamilyName"].value;
+var cemail=document.forms["question1"]["PhoneNo"].value;
+var cdob=document.forms["question1"]["DOB"].value;
+var cfsport=document.forms["question1"]["FavouritePastime"].value;
+if(!cFirstName || !cFamilyName || !cPhoneNo || !cDOB || !cFavouritePastime)
+{
+alert("Please fill all the values!");
+return false;
+}
+}
+function isNotEmpty(field)
+{
+var inputStr=field.value;
+if(inputStr=="" || inputStr==null)
+{
+alert("This field requires an entry.");
+field.focus();
+field.select();
+return false;
+}
+return true;
+}
+</script>
+</head>
+<body>
+<hr>
+<form name="question1" method="GET" action="http://www.it.murdoch.edu.au/cgi-bin/reply1.pl " onsubmit="return checkform()">
+<table name="t1" bgcolor="#E0F8F7">
+<tr>
+<td><p style="color:red">*=Required field</p></td>
+</tr>
+<tr>
+<td><font style="color:red">*</font>First Name : </td>
+<td><input name="FirstName" type="text" size="20" onblur="isNotEmpty(this)"></td>
+</tr>
+<tr>
+<td><font style="color:red">*</font>Family Name:</td>
+<td><input name="FamilyName" type="text" size="20" onblur="isNotEmpty(this)"></td>
+</tr>
+<tr>
+<td><font style="color:red">*</font>Phone Number:</td>
+<td><input name="PhoneNo" type="text" size="20" onblur="isNotEmpty(this)"></td>
+</tr>
+<tr>
+<td><font style="color:red">*</font>Date of Birth:</td>
+<td><input type="date" name="DOB" min="1900-01-02" onblur="isNotEmpty(this)"></td>
+</tr>
+<tr>
+<td><font style="color:red">*</font>Favourite pastime:</td>
+<td>
+<select name="FavouritePastime" onblur="isNotEmpty(this)">
+<option>
+<option>Surfing the Web
+<option>Playing sports
+<option>Listening to Music
+<option>Watching TV
+<option>Playing Games
+<option>Community Service
+<option>Day Dreaming
+<option>Reading
+<option>Meditation
+</select>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input type="submit"> <input type="reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+<html>
