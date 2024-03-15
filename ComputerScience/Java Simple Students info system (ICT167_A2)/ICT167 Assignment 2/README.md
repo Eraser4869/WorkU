@@ -31,7 +31,7 @@ Write a Java class called Student which can be used to represent the details of 
 - (iv) methods to compute the final overall mark and the final grade. These two methods will be void methods that set the appropriate instance variables. Remember one method can call another method. If you prefer, you can define a single method that sets both the overall mark and the final string grade, but if you do this, use a helper method.
 - (v) an equals method which compares two student objects and returns true if they have the same student names, the same date of birth and the same student number, otherwise it returns false.
 
-<br><br>
+<br>
 
 #### User Guide:
 
