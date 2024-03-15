@@ -15,14 +15,22 @@
   > - menu1
   > 
   >   In this method, the program will ask the user to enter a name of the coin owner. Then search the name in the data and print the coin change amounts using the getChange method. If there is no name in the data, it will print an error message.
+  >   
   > - menu2
-In this method, the program will print the name who has the largest amount of coins and the coin change amounts using the getChange method.
-menu3
-In this method, the program will print the name who has the smallest amount of coins and the coin change amounts using the getChange method.
-menu4
-In this method, the program will count the number of coins of all people in the data. And print the total number of coins.
-main
-In this method, the program will print the list of menus and prompt the menu number which user entered. The program will repeat this until user enters 5 (Exit).
+  >
+  >   In this method, the program will print the name who has the largest amount of coins and the coin change amounts using the getChange method.
+  >
+  > - menu3
+  >
+  >   In this method, the program will print the name who has the smallest amount of coins and the coin change amounts using the getChange method.
+  >
+  > - menu4
+  >
+  >   In this method, the program will count the number of coins of all people in the data. And print the total number of coins.
+  >
+  > - main
+  >
+  >   In this method, the program will print the list of menus and prompt the menu number which user entered. The program will repeat this until user enters 5 (Exit).
 
 User Guide
 Enter 10 names and coin amounts.
