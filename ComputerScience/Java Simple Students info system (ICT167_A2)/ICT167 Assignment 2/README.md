@@ -1,4 +1,4 @@
-#### Requirement:
+### Requirement:
 
 <br>
 
@@ -33,12 +33,12 @@ Write a Java class called Student which can be used to represent the details of 
 
 <br>
 
-#### User Guide:
+### User Guide:
 
 Open zip file named Assignment2ICT167 -> Open with netbeans named Client and Student-> Click Client and run the program.
 
 <br>
 
-#### Structure:
+### Structure:
 
 The program is supposed to execute the requirements in the questionnaire, depending on the menu entered. All of the menu's execution programs are covered by the client class, and the data required to run this program is covered by the Student class. Also, the Student class requires different applications for each student type, which is treated as a separate class using the Super class. The menu is repeated until the user enters 1 (quit).
