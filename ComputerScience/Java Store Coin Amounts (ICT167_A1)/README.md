@@ -32,7 +32,7 @@
   >
   >   In this method, the program will print the list of menus and prompt the menu number which user entered. The program will repeat this until user enters 5 (Exit).
 
-
+<br>
 
 ### User Guide
 Enter 10 names and coin amounts.
@@ -40,7 +40,8 @@ The program will ask the user to select a menu. Enter an integer only.
 Except menu1, the program dose not need anything from user.
 In menu1, enter a name which is in the data. If not, it will print ‘NOT FOUND’.
 The program will automatically repeat until user enters 5. Enter 5 to stop the program.
- 
+
+ <br>
 
 ### Structure/Design/Algorithm
 Structure
