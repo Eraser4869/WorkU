@@ -1,6 +1,7 @@
 <H1>Question1
 <br>
 <br>
+<details>
 A brief description of a program
 The program creates forms that use HTML and JavaScript to obtain user input, including usernames, phone numbers, birth dates, and favorite hobbies (web surfing, sports, games, community services, naps, reading, or meditation). When a user clicks the Submit button on a form, the field value of the form is sent to the Web server.
 
