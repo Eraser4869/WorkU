@@ -8,8 +8,8 @@
 
 
 - Client class
-  > data
-  > In this method, the program will store the values of the names and coins which are prompt by user to array.
+  > - data
+  >   In this method, the program will store the values of the names and coins which are prompt by user to array.
   > - menu1
   > 
   >   In this method, the program will ask the user to enter a name of the coin owner. Then search the name in the data and print the coin change amounts using the getChange method. If there is no name in the data, it will print an error message.
