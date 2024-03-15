@@ -1,14 +1,16 @@
 <H3>Question1
 <br>
-
+<br>
 A brief description of a program
 The program creates forms that use HTML and JavaScript to obtain user input, including usernames, phone numbers, birth dates, and favorite hobbies (web surfing, sports, games, community services, naps, reading, or meditation). When a user clicks the Submit button on a form, the field value of the form is sent to the Web server.
 
 a description of your solution approach including structured design/pseudo-code for the JavaScript-specific code
 The Html form is used to import user details and connection servers using the "Get" method. In this program, validation constraints are important to prevent empty data from being sent to the server. This is done with the JavaScript feature. Validation has two parts: batch validation and real-time validation. Real-time validation runs as soon as the user leaves the text box. Verify that the selected text box is null. If null, you are prompted for details. The cursor focuses on the text box so that the user can enter data. The isNotEmpty JavaScript function calls the function when the user leaves the text box by displaying the keyword in blue in each text box.
 
-
+<br>
+<br>
 <H3>Question2
+<br>
 <br>
 
 Title
