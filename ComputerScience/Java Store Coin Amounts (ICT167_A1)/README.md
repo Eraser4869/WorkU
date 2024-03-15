@@ -2,10 +2,10 @@
 
 - Change class
   > In this class, the program will get the coin change amount and name of the owner of the coin.
+  > - getChange
+  >   In this method, the program will calculate and print the number of coins following the denominations (50, 20, 10, 5) of it.
 
 
-- getChange
--- In this method, the program will calculate and print the number of coins following the denominations (50, 20, 10, 5) of it.
 - Client class
 data
 In this method, the program will store the values of the names and coins which are prompt by user to array.
