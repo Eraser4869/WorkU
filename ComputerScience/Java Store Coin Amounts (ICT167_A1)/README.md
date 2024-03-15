@@ -3,6 +3,7 @@
 - Change class
   > In this class, the program will get the coin change amount and name of the owner of the coin.
   > - getChange
+  > - 
   >   In this method, the program will calculate and print the number of coins following the denominations (50, 20, 10, 5) of it.
 
 
