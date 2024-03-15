@@ -1,7 +1,7 @@
 ### Requirements/Specification
 
 - Change class
--- In this class, the program will get the coin change amount and name of the owner of the coin.
+  > In this class, the program will get the coin change amount and name of the owner of the coin.
 
 
 - getChange
