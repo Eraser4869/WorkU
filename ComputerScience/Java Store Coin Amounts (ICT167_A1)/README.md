@@ -32,7 +32,9 @@
   >
   >   In this method, the program will print the list of menus and prompt the menu number which user entered. The program will repeat this until user enters 5 (Exit).
 
-User Guide
+
+
+### User Guide
 Enter 10 names and coin amounts.
 The program will ask the user to select a menu. Enter an integer only.
 Except menu1, the program dose not need anything from user.
@@ -40,7 +42,7 @@ In menu1, enter a name which is in the data. If not, it will print ‘NOT FOUND�
 The program will automatically repeat until user enters 5. Enter 5 to stop the program.
  
 
-Structure/Design/Algorithm
+### Structure/Design/Algorithm
 Structure
 I add an instance variable ‘changeArray’ to store the values in it and can be accessed from methods when those needs data.
 Class diagram
