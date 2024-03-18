@@ -49,19 +49,14 @@ Structure
 
 I add an instance variable ‘changeArray’ to store the values in it and can be accessed from methods when those needs data.
 Class diagram
-
-
-
-
-
-
+<br>
 
 
 Description
 
 
 Change class only has two instance variables and get change method which is the main functional part of the program. All extra programs like storing data or selecting menu is in the client class.
-
+<br>
 
 
 
