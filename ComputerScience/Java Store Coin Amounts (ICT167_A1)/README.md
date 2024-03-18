@@ -45,6 +45,8 @@ The program will automatically repeat until user enters 5. Enter 5 to stop the p
 
 ### Structure/Design/Algorithm
 Structure
+
+
 I add an instance variable ‘changeArray’ to store the values in it and can be accessed from methods when those needs data.
 Class diagram
 
@@ -56,11 +58,15 @@ Class diagram
 
 
 Description
+
+
 Change class only has two instance variables and get change method which is the main functional part of the program. All extra programs like storing data or selecting menu is in the client class.
 
 
 
 
 Limitations
+
+
 There is a certain problem in the data (object, input). It automatically converts every value of the whole array to the last input. I could not figure out what to do in the data. The other codes were created assuming that the data was correct and has no error.
 The program does not accept the input which has different type from the requiring.
